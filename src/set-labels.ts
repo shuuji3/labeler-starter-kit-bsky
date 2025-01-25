@@ -1,4 +1,4 @@
-import { type ComAtprotoLabelDefs } from '@atproto/api';
+import { type ComAtprotoLabelDefs } from '@atcute/client/lexicons';
 import { type LoginCredentials, setLabelerLabelDefinitions } from '@skyware/labeler/scripts';
 
 import { BSKY_IDENTIFIER, BSKY_PASSWORD } from './config.js';

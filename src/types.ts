@@ -1,7 +1,7 @@
-import { LabelValueDefinitionStrings } from '@atproto/api/dist/client/types/com/atproto/label/defs.js';
+import { type ComAtprotoLabelDefs } from '@atcute/client/lexicons';
 
 export interface Label {
   rkey: string;
   identifier: string;
-  locales: LabelValueDefinitionStrings[];
+  locales: ComAtprotoLabelDefs.LabelValueDefinitionStrings[];
 }
